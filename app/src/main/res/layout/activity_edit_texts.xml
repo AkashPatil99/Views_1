@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginTop="50dp"
+            android:textStyle="italic"
+            android:hint="italic capital 10dp text"
+            android:textSize="10dp"
+            android:textAllCaps="true"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:hint="bold password text"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:layout_marginTop="50dp"
+            android:textStyle="normal"
+            android:hint="number password text"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:hint="Date with 10sp"
+            android:textSize="10sp"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:layout_marginTop="50dp"
+            android:textStyle="italic"
+            android:hint="Date time"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:hint="text Email Address"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:hint="number Decimal with 5mm"
+            android:textSize="5mm"></EditText>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

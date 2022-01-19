@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/balcony"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="center"
+            app:tint="#0dd9d5"
+            android:tintMode="screen"
+            android:alpha="1.0">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/balcony"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            app:tint="#0dd9d5"
+            android:tintMode="multiply"
+            android:alpha="0.5">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/balcony"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerInside"
+            app:tint="#0dd9d5"
+            android:tintMode="add"
+            android:alpha="0.1">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/vase"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitCenter"
+            app:tint="#9C27B0"
+            android:tintMode="src_atop"
+            android:alpha="0.8">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/vase"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            app:tint="#9C27B0"
+            android:tintMode="src_in"
+            android:alpha="0.6">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/vase"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitEnd"
+            app:tint="#9C27B0"
+            android:tintMode="src_over"
+            android:alpha="0.4">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/vase"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitStart"
+            app:tint="#9C27B0"
+            android:tintMode="multiply"
+            android:alpha="0.2">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/tulips"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            app:tint="#4CAF50"
+            android:tintMode="multiply"
+            android:alpha="0.5">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/tulips"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:scaleType="matrix"
+            app:tint="#4CAF50"
+            android:tintMode="add"
+            android:alpha="0.1">
+        </ImageView>
+
+    </LinearLayout>
+
+</ScrollView>

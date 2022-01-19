@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textStyle="italic"
+            android:text="italic 10mm text"
+            android:textSize="10mm"
+            android:padding="10dp"
+            android:gravity="center|top"
+            android:background="@color/purple_200"></TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="italic"
+            android:gravity="left|bottom"
+            android:text="bold text center"
+            android:layout_gravity="center"
+            android:background="#CDDC39"
+            android:paddingStart="100px"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:orientation="horizontal"
+        android:layout_margin="10sp"
+        android:background="@color/black"
+        android:paddingTop="5pt">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="20mm"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="italic"
+            android:text="RSL"
+            android:gravity="right|center"
+            android:background="#8BC34A"
+            android:fontFamily="serif"
+            android:textColor="#E91E63"
+            android:layout_gravity="left|center"
+            android:textSize="20pt"></TextView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="20mm"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/purple_200"
+            android:text="RSL"
+            android:textStyle="bold"
+            android:gravity="center|bottom"
+            android:layout_gravity="right|top"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#FF9800"></TextView>
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textStyle="italic"
+            android:text="Kolhapur"
+            android:textSize="10mm"
+            android:textAlignment="center"
+            android:background="@color/black"
+            android:textColor="@color/purple_200"
+            android:textAllCaps="true"></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="Akash"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="right"
+            android:background="@color/purple_700"
+            android:textAllCaps="true"
+            android:layout_margin="10sp"></TextView>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:background="@color/teal_700"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:text="with long text and different combination of max lines and ellipsize.with long text and different combination of max lines and ellipsize"></TextView>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:text="with long text and different combination of max lines and ellipsize.with long text and different combination of max lines and ellipsize"
+            android:textSize="5mm"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:background="#9C27B0"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"></TextView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
